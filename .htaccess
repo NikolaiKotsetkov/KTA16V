@@ -1,7 +1,8 @@
 AuthType Basic
 AuthName "Protected"
-AuthUserFile C:\wamp\www\kta16v\.htpasswd
+AuthUserFile C:\wamp64\www\kta16v\.htpasswd
 Require valid-user
+#vsegda proverjat' put' AuthUserFile
 
 <files "*.txt">
 deny from all

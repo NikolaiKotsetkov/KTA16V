@@ -26,6 +26,8 @@
     currentTime();
     backHome();
     menu($filesArr);
+    counter();
+    getUserIP();
 ?>
 </body>
 </html>
